@@ -18,7 +18,7 @@ function Example2() {
                   <a href="#skills">Skills</a>
                 </li>
                 <li>
-                  <a href="#portofolio">Portofolio</a>
+                  <a href="#portofolios">Portofolio</a>
                 </li>
                 <li>
                   <a href="#contact">Contact</a>
@@ -151,6 +151,29 @@ function Example2() {
               <h4>Java Script</h4>
               <p>still learning</p>
             </div>
+
+            <div className="skill">
+              <div className="skill-ikon">
+                <img
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMi4wMiAwYzYuNjE0LjAxMSAxMS45OCA1LjM4MyAxMS45OCAxMiAwIDYuNjIzLTUuMzc2IDEyLTEyIDEyLTYuNjIzIDAtMTItNS4zNzctMTItMTIgMC02LjYxNyA1LjM2Ny0xMS45ODkgMTEuOTgxLTEyaC4wMzl6bTMuNjk0IDE2aC03LjQyN2MuNjM5IDQuMjY2IDIuMjQyIDcgMy43MTMgNyAxLjQ3MiAwIDMuMDc1LTIuNzM0IDMuNzE0LTdtNi41MzUgMGgtNS41MjNjLS40MjYgMi45ODUtMS4zMjEgNS40MDItMi40ODUgNi43NzEgMy42NjktLjc2IDYuNjcxLTMuMzUgOC4wMDgtNi43NzFtLTE0Ljk3NCAwaC01LjUyNGMxLjMzOCAzLjQyMSA0LjM0IDYuMDExIDguMDA5IDYuNzcxLTEuMTY0LTEuMzY5LTIuMDU5LTMuNzg2LTIuNDg1LTYuNzcxbS0uMTIzLTdoLTUuNzM2Yy0uMzMxIDEuMTY2LS43NDEgMy4zODkgMCA2aDUuNzM2Yy0uMTg4LTEuODE0LS4yMTUtMy45MjUgMC02bTguNjkxIDBoLTcuNjg1Yy0uMTk1IDEuOC0uMjI1IDMuOTI3IDAgNmg3LjY4NWMuMTk2LTEuODExLjIyNC0zLjkzIDAtNm02Ljc0MiAwaC01LjczNmMuMDYyLjU5Mi4zMDggMy4wMTkgMCA2aDUuNzM2Yy43NDEtMi42MTIuMzMxLTQuODM1IDAtNm0tMTIuODI1LTcuNzcxYy0zLjY2OS43Ni02LjY3MSAzLjM1LTguMDA5IDYuNzcxaDUuNTI0Yy40MjYtMi45ODUgMS4zMjEtNS40MDMgMi40ODUtNi43NzFtNS45NTQgNi43NzFjLS42MzktNC4yNjYtMi4yNDItNy0zLjcxNC03LTEuNDcxIDAtMy4wNzQgMi43MzQtMy43MTMgN2g3LjQyN3ptLTEuNDczLTYuNzcxYzEuMTY0IDEuMzY4IDIuMDU5IDMuNzg2IDIuNDg1IDYuNzcxaDUuNTIzYy0xLjMzNy0zLjQyMS00LjMzOS02LjAxMS04LjAwOC02Ljc3MSIvPjwvc3ZnPg=="
+                  alt="javascript"
+                />
+              </div>
+              <h4>React</h4>
+              <p>still learning</p>
+            </div>
+
+            <div className="skill">
+              <div className="skill-ikon">
+                <img
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMi4wMiAwYzYuNjE0LjAxMSAxMS45OCA1LjM4MyAxMS45OCAxMiAwIDYuNjIzLTUuMzc2IDEyLTEyIDEyLTYuNjIzIDAtMTItNS4zNzctMTItMTIgMC02LjYxNyA1LjM2Ny0xMS45ODkgMTEuOTgxLTEyaC4wMzl6bTMuNjk0IDE2aC03LjQyN2MuNjM5IDQuMjY2IDIuMjQyIDcgMy43MTMgNyAxLjQ3MiAwIDMuMDc1LTIuNzM0IDMuNzE0LTdtNi41MzUgMGgtNS41MjNjLS40MjYgMi45ODUtMS4zMjEgNS40MDItMi40ODUgNi43NzEgMy42NjktLjc2IDYuNjcxLTMuMzUgOC4wMDgtNi43NzFtLTE0Ljk3NCAwaC01LjUyNGMxLjMzOCAzLjQyMSA0LjM0IDYuMDExIDguMDA5IDYuNzcxLTEuMTY0LTEuMzY5LTIuMDU5LTMuNzg2LTIuNDg1LTYuNzcxbS0uMTIzLTdoLTUuNzM2Yy0uMzMxIDEuMTY2LS43NDEgMy4zODkgMCA2aDUuNzM2Yy0uMTg4LTEuODE0LS4yMTUtMy45MjUgMC02bTguNjkxIDBoLTcuNjg1Yy0uMTk1IDEuOC0uMjI1IDMuOTI3IDAgNmg3LjY4NWMuMTk2LTEuODExLjIyNC0zLjkzIDAtNm02Ljc0MiAwaC01LjczNmMuMDYyLjU5Mi4zMDggMy4wMTkgMCA2aDUuNzM2Yy43NDEtMi42MTIuMzMxLTQuODM1IDAtNm0tMTIuODI1LTcuNzcxYy0zLjY2OS43Ni02LjY3MSAzLjM1LTguMDA5IDYuNzcxaDUuNTI0Yy40MjYtMi45ODUgMS4zMjEtNS40MDMgMi40ODUtNi43NzFtNS45NTQgNi43NzFjLS42MzktNC4yNjYtMi4yNDItNy0zLjcxNC03LTEuNDcxIDAtMy4wNzQgMi43MzQtMy43MTMgN2g3LjQyN3ptLTEuNDczLTYuNzcxYzEuMTY0IDEuMzY4IDIuMDU5IDMuNzg2IDIuNDg1IDYuNzcxaDUuNTIzYy0xLjMzNy0zLjQyMS00LjMzOS02LjAxMS04LjAwOC02Ljc3MSIvPjwvc3ZnPg=="
+                  alt="javascript"
+                />
+              </div>
+              <h4>Typescript</h4>
+              <p>still learning</p>
+            </div>
+            
           </div>
         </div>
       </section>
@@ -169,8 +192,67 @@ function Example2() {
             <div className="portofolio-info">
               <div className="portofolio-title">
                 <h4>Cake Store Web</h4>
+                <a href="/" className="porofolio-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-6 17c1.513-6.587 7-7.778 7-7.778v-2.222l5 4.425-5 4.464v-2.223c0 .001-3.78-.114-7 3.334z"/></svg>
+                </a>
                 
               </div>
+              <div className="portofolio-tags">
+                <div>HTML</div>
+                <div>CSS</div>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum velit saepe quo. Eius, ducimus voluptatem voluptate sit ipsam quibusdam!
+              </p>
+            </div>
+          </div>
+
+          <div className="portofolio">
+            <div className="portofolio-cover">
+              <img src="./src/components/Portofolio/Screenshot 2024-09-24 110634.png" alt="portofilio" />
+            </div>
+
+            <div className="portofolio-info">
+              <div className="portofolio-title">
+                <h4>Cake Store Web</h4>
+                <a href="/" className="porofolio-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-6 17c1.513-6.587 7-7.778 7-7.778v-2.222l5 4.425-5 4.464v-2.223c0 .001-3.78-.114-7 3.334z"/></svg>
+                </a>
+                
+              </div>
+              <div className="portofolio-tags">
+                <div>HTML</div>
+                <div>CSS</div>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum velit saepe quo. Eius, ducimus voluptatem voluptate sit ipsam quibusdam!
+              </p>
+            </div>
+          </div>
+
+          <div className="portofolio">
+            <div className="portofolio-cover">
+              <img src="./src/components/Portofolio/Screenshot 2024-09-24 110634.png" alt="portofilio" />
+            </div>
+
+            <div className="portofolio-info">
+              <div className="portofolio-title">
+                <h4>Cake Store Web</h4>
+                <a href="/" className="porofolio-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-6 17c1.513-6.587 7-7.778 7-7.778v-2.222l5 4.425-5 4.464v-2.223c0 .001-3.78-.114-7 3.334z"/></svg>
+                </a>
+                
+              </div>
+              <div className="portofolio-tags">
+                <div>HTML</div>
+                <div>CSS</div>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum velit saepe quo. Eius, ducimus voluptatem voluptate sit ipsam quibusdam!
+              </p>
             </div>
           </div>
         </div>

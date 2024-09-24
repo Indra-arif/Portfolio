@@ -158,6 +158,63 @@ body {
       width: 100%;
   }
   
+/*--------------------portofolio--------------------------*/
+#portofolios {
+  padding: 6rem;
+  background-color: #F5EFFF;
+}
+
+.portofolio {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.portofolio-cover {
+  height: 250px;
+}
+
+.portofolio-cover img {
+  height: 100%;
+  width: 100%;
+}
+
+.portofolio-info {
+  padding: 2rem 1.5rem;
+}
+
+.portofolio-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:16px
+
+}
+
+.portofolio h4 {
+  font-weight: 500;
+  font-size: 16px;
+
+}
+.portofolio-title a svg:hover {
+  fill: grey;
+}
+
+.portofolio-tags {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0
+}
+
+.portofolio-tags div {
+  font-size: 12px;
+  border: 1px solid #7d04ff;
+  padding: 6px 16px;
+  color: gray
+}
+
+
+
+  /*---------------skills-----------------*/
   #skills {
       background-color: #E5D9F2;
       padding: 6rem;
@@ -185,7 +242,7 @@ body {
   }
   
   .skill-ikon {
-      background: #A594F9;
+      background: #F5EFFF;
       width: fit-content;
       margin: 0 auto;
       padding: 1rem 1.3rem;
@@ -198,7 +255,7 @@ body {
   
   #contact {
     padding: 6rem;
-    background-color: #F5EFFF;
+    background-color: #E5D9F2;
   }
   
   .contact {
@@ -297,7 +354,7 @@ body {
   /*--------footer----------------*/
   footer {
     padding: 4rem 0;
-    background: #E5D9F2;
+    background-color: #F5EFFF;
     text-align: center;
   }
   
