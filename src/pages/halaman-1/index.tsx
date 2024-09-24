@@ -1,4 +1,7 @@
 import "./index.css";
+import "./responsive.css"
+import portfolio1 from "../../../public/project1.png"
+import portfolio2 from "../../../public/project2.png"
 
 function Example2() {
   return (
@@ -173,7 +176,7 @@ function Example2() {
               <h4>Typescript</h4>
               <p>still learning</p>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -186,7 +189,7 @@ function Example2() {
         <div className="grid-3">
           <div className="portofolio">
             <div className="portofolio-cover">
-              <img src="./src/components/Portofolio/Screenshot 2024-09-24 110634.png" alt="portofilio" />
+              <img src={portfolio1} alt="portofilio" />
             </div>
 
             <div className="portofolio-info">
@@ -210,12 +213,12 @@ function Example2() {
 
           <div className="portofolio">
             <div className="portofolio-cover">
-              <img src="./src/components/Portofolio/Screenshot 2024-09-24 110634.png" alt="portofilio" />
+              <img src={portfolio2} alt="portofilio" />
             </div>
 
             <div className="portofolio-info">
               <div className="portofolio-title">
-                <h4>Cake Store Web</h4>
+                <h4>Cake Kodam Website</h4>
                 <a href="/" className="porofolio-link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-6 17c1.513-6.587 7-7.778 7-7.778v-2.222l5 4.425-5 4.464v-2.223c0 .001-3.78-.114-7 3.334z"/></svg>
                 </a>
@@ -234,7 +237,7 @@ function Example2() {
 
           <div className="portofolio">
             <div className="portofolio-cover">
-              <img src="./src/components/Portofolio/Screenshot 2024-09-24 110634.png" alt="portofilio" />
+              <img src={portfolio1} alt="portofilio" />
             </div>
 
             <div className="portofolio-info">
