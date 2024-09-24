@@ -1,0 +1,312 @@
+
+body {
+  overflow-x: hidden; /* Mencegah scroll horizontal */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: #000;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.9rem;
+  }
+  
+  p,
+  span,
+  label,
+  input,
+  textarea {
+    color: rgb(103, 103, 103);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .main-container {
+    width: 1200px; /* Ganti width dengan max-width */
+    width: 90%; /* Pastikan lebar 100% */
+    margin: 0 auto;
+}
+
+
+  .header {
+    background-color: #E5D9F2;
+  
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .main-container {
+      width: 90%;
+    }
+  }
+  
+  /*----------------Title---------------*/
+  .section-title {
+      margin: 1rem 0 4rem;
+      font-size: 2rem;  
+  }
+  
+  .pre-title {
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+      color: rgb(166, 166, 248);
+      position:relative;
+      padding-left: 40px;
+      width: fit-content;
+      font-weight: 400;
+      font-size: 15px;
+  }
+  
+  .pre-title::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #8070E6;
+    position: absolute;
+    display: block;
+    left: 0;
+    top:50%
+  }
+  
+  .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 3rem
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .logo a {
+    color: black;
+  }
+  
+  .nav ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav ul li a {
+    color: rgb(0, 0, 0);
+  }
+  
+  .burger div{
+    width: 25px;
+    height: 2px;
+    background-color: #000;
+    margin: 7px;
+    transition: all 0.3s;
+    z-index: 99; /*agar selalu muncul paling atas*/
+  }
+  
+  .burger {
+    display: none;
+    z-index: 99;
+    position: fixed;
+    top: 33px;
+    right: 35px;
+  }
+  
+  #hero {
+      height: 720px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+  }
+  
+  .hero-name {
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 0.5rem 0 1rem
+  }
+  
+  .hero-name span {
+      color: blue;
+  }
+  
+  .hero-right {
+      display:flex;
+      justify-content: center;
+  }
+  .hero-right img{
+      width: 100%;
+  }
+  
+  #skills {
+      background-color: #E5D9F2;
+      padding: 6rem;
+  }
+  
+  .skills .pre-title {
+      margin: 0 auto;
+  }
+  
+  .skills-title{
+      text-align: center;
+  }
+  
+  .skill{
+      padding: 3rem 2rem;
+      text-align: center;
+      background: #E5D9F2;
+      border-radius: 15px;
+  }
+  
+  .skill h4 {
+      margin: 1.5rem 0;
+      font-weight: 500;
+      font-size: 16px;
+  }
+  
+  .skill-ikon {
+      background: #A594F9;
+      width: fit-content;
+      margin: 0 auto;
+      padding: 1rem 1.3rem;
+      border-radius: 0.5rem;
+  
+  }
+  
+  
+  /*----------------contact-------------------*/
+  
+  #contact {
+    padding: 6rem;
+    background-color: #F5EFFF;
+  }
+  
+  .contact {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+  }
+  
+  .contact-form div {
+    margin-bottom: 1.4rem;
+  }
+  
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    background: #f5efff;
+    border: 1px solid #E5D9F2;
+    border-radius: 3px;
+    resize:none
+  
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    background-color: #A594F9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #8070E6;
+  }
+  
+  .contact-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .contact-item-icon {
+    width: 53px;
+    height: 53px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*------------------Education----------------------------*/
+  
+  #education {
+    padding: 16px;
+    background: #F5EFFF;
+  }
+  
+  .education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+  }
+  
+  .education {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .education .line {
+    padding: 0 0.7rem;
+  }
+  
+  .education .line div {
+    width: 2px;
+    height: 100%;
+    background: gray;
+    position: relative;
+  }
+  
+  .education-year {
+    margin-bottom: 3rem;
+  }
+  
+  .education .line div:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: gray;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+  }
+  
+  /*--------footer----------------*/
+  footer {
+    padding: 4rem 0;
+    background: #E5D9F2;
+    text-align: center;
+  }
+  
+  .footer-icon {
+    margin-bottom: 16px;
+  }
+  
+  .footer-icon a {
+    margin: 0 8px;
+  }
+  
+  
